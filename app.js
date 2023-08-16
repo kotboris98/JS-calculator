@@ -33,7 +33,7 @@ function printResult(result) {
   resultElement.textContent = result
 }
 
-function computeNumbersWithAction(inp1, inp2, actionSymbol) {
+function calculateNumbers(inp1, inp2, actionSymbol) {
   const num1 = Number(inp1.value)
   const num2 = Number(inp2.value)
   if (actionSymbol == '+') {
@@ -48,7 +48,7 @@ function computeNumbersWithAction(inp1, inp2, actionSymbol) {
 }
 
 submitBtn.onclick = function () {
-  const result = computeNumbersWithAction(input1, input2, action)
+  const result = calculateNumbers(input1, input2, action)
   printResult(result)
 }
 
