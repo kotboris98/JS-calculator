@@ -33,7 +33,7 @@ function printResult(result) {
   resultElement.textContent = result
 }
 
-function countNumbers(inp1, inp2, actionSymbol) {
+function countingNumbers(inp1, inp2, actionSymbol) {
   const num1 = Number(inp1.value)
   const num2 = Number(inp2.value)
   if (actionSymbol == '+') {
@@ -48,7 +48,7 @@ function countNumbers(inp1, inp2, actionSymbol) {
 }
 
 submitBtn.onclick = function () {
-  const result = countNumbers(input1, input2, action)
+  const result = countingNumbers(input1, input2, action)
   printResult(result)
 }
 
