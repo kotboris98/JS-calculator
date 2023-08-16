@@ -1,0 +1,22 @@
+.title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.multiply {
+    background-color: #c97f38;
+    border: none;
+}
+
+.multiply:hover {
+    background-color: darkgoldenrod;
+}
+
+.divide {
+    background-color: #5c9126;
+    border: none;
+}
+
+.divide:hover {
+    background-color: darkolivegreen;
+}
