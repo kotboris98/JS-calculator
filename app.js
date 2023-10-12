@@ -48,7 +48,7 @@ function countingNumbers(inp1, inp2, actionSymbol) {
 }
 
 submitBtn.onclick = function () {
-  const result = countingNumbers(input1, input2, action)
+  const result = countingAllNumbers(input1, input2, action)
   printResult(result)
 }
 
